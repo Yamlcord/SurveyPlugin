@@ -1,0 +1,29 @@
+{
+  "name": "surveyplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "node --import tsx --watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yamlcord/SurveyPlugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Yamlcord/SurveyPlugin/issues"
+  },
+  "homepage": "https://github.com/Yamlcord/SurveyPlugin#readme",
+  "peerDependencies": {
+    "grot-core": "^0.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "tsx": "^4.21.0"
+  }
+}
